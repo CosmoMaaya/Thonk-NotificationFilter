@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Thonk</string>
+    <string name="title_history">History</string>
+    <string name="title_rules">Rules</string>
+    <string name="service_name">Thonk Notification Service</string>
+    <string name="service_name_enable">Enable Thonk Notification Service</string>
+    <string name="perm_request_content">Notification access is required for this app to function</string>
+    <string name="perm_request_title">Permission required</string>
+    <string name="new_rule">New Rule</string>
+    <string name="search">Search</string>
+    <string name="editrule_if">If</string>
+    <string name="editrule_then">Then</string>
+    <string name="editrule_options">Options</string>
+    <string name="editrule_rule_name">Rule Name</string>
+    <string name="editrule_new_condition">Add Condition</string>
+    <string name="editrule_new_action">Add Action</string>
+
+    <string name="rule_condition_entry_delete">Delete</string>
+    <string name="rule_condition_entry_add">Add Clause</string>
+
+    <string name="applist_view_select_apps">Select Apps</string>
+    <string name="applist_view_no_apps">No Apps Selected</string>
+
+    <string name="app_chooser">Select Apps</string>
+    <string name="app_chooser_search">Search</string>
+    <string name="app_chooser_show_system">Show system apps</string>
+    <string name="app_chooser_show_system_hide">Hide system apps</string>
+
+    <string name="confirm">Confirm</string>
+
+    <string-array name="editrule_condition_field">
+        <item>Title</item>
+        <item>Content</item>
+        <item>App</item>
+        <item>Date</item>
+        <item>Time</item>
+    </string-array>
+
+    <string-array name="editrule_condition_type_string">
+        <item>is exactly</item>
+        <item>isn\'t exactly</item>
+        <item>contains</item>
+        <item>doesn\'t contain</item>
+        <item>match regex</item>
+        <item>doesn\'t match regex</item>
+    </string-array>
+    <string-array name="editrule_condition_type_app">
+        <item>is one of</item>
+        <item>isn\'t one of</item>
+    </string-array>
+    <string-array name="editrule_condition_type_datetime">
+        <item>is before</item>
+        <item>is after</item>
+        <item>is between</item>
+        <item>isn\'t between</item>
+    </string-array>
+</resources>

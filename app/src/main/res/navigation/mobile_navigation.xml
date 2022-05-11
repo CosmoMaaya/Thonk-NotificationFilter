@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_history">
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.se390.thonk.ui.fragment.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_rules"
+        android:name="com.se390.thonk.ui.fragment.RulesFragment"
+        android:label="@string/title_rules"
+        tools:layout="@layout/fragment_rules" />
+</navigation>
